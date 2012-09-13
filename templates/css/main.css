@@ -1,0 +1,746 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ===== Initializr Styles ==================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+
+body {
+    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 5%;
+}
+
+/* ===================
+    ALL: Orange Theme
+   =================== */
+
+.header-container {
+    border-bottom: 20px solid #e44d26;
+}
+
+.footer-container,
+.main aside {
+    border-top: 20px solid #e44d26;
+}
+
+.header-container,
+.footer-container,
+.main aside {
+    background: #f16529;
+}
+
+.title {
+    color: white;
+}
+
+/* ==============
+    MOBILE: Menu
+   ============== */
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 15px 0;
+
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+
+    color: white;
+    background: #e44d26;
+}
+
+nav a:hover,
+nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ==============
+    MOBILE: Main
+   ============== */
+
+.main {
+    padding: 30px 0;
+}
+
+.main article h1 {
+    font-size: 2em;
+}
+
+.main aside {
+    color: white;
+    padding: 0px 5% 10px;
+}
+
+.footer-container footer {
+    color: white;
+    padding: 20px 0;
+}
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+    @font-face {
+        font-family: 'Helvetica Neue Thin';
+        src: url('fonts/helveticaneueltstd-th-webfont.eot');
+        src: url('fonts/helveticaneueltstd-th-webfont.eot?#iefix') format('embedded-opentype'),
+             url('fonts/helveticaneueltstd-th-webfont.woff') format('woff'),
+             url('fonts/helveticaneueltstd-th-webfont.ttf') format('truetype'),
+             url('fonts/helveticaneueltstd-th-webfont.svg#helveticaneuelt_std_thinRg') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    
+    }    
+    @font-face {
+        font-family: 'Helvetica Neue Regular';
+        src: url('fonts/helveticaneueltstd-roman-webfont.eot');
+        src: url('fonts/helveticaneueltstd-roman-webfont.eot?#iefix') format('embedded-opentype'),
+             url('fonts/helveticaneueltstd-roman-webfont.woff') format('woff'),
+             url('fonts/helveticaneueltstd-roman-webfont.ttf') format('truetype'),
+             url('fonts/helveticaneueltstd-roman-webfont.svg#helveticaneuelt_stdregular') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+   
+   html, body {
+       background: #000;
+       font: normal 13px/15px Helvetica,Arial,"sans-serif";
+   }
+   #wrapper {
+       display: block;
+       height: 700px;
+       margin: 0 auto;
+       position: relative;
+       width: 1200px;
+   }
+   #dekora_values {
+       float: left;
+       position: relative;
+   }
+   #dekora_values.up {
+       top: -248px;
+   }
+   #dekora_values.down {
+       top: 0px;
+   }
+   #dekora_values button {
+       background: url("../img/up_down_pestana.png") no-repeat scroll transparent;
+       border: none;
+       bottom: 95px;
+       display: block;
+       height: 10px;
+       left: 71px;
+       margin: 0;
+       padding: 0;
+       position: absolute;
+       width: 10px;
+       z-index: 20;
+   }
+   #dekora_values button.down {
+       background-position: -4px -20px;
+   }
+   #dekora_values button.up {
+       background-position: -4px -4px;
+   }
+   #description{
+       background: url("../img/pestana_home.png") no-repeat scroll -2px -6px transparent;
+       display: inline-block;
+       float: left;
+       height: 296px;
+       padding: 20px 50px 40px;
+       position: relative;
+       width: 1100px;
+       z-index: 10;
+   }
+   #description section {
+       background: url("../img/linea_separadora.png") scroll no-repeat right 0 transparent;
+       float: left;
+       height: 227px;
+       padding: 0 36px;
+       position: relative;
+       width: 20%;       
+   }
+   #description section#about_us {
+       padding: 0 36px 0 0;
+   }
+   #description section#mission {
+   }
+   #description section#vision {
+   }
+   #description section#values {
+       background: none transparent;
+       padding: 0 0 0 36px;
+   }
+   #description section h2 {
+       color: #FFF;
+       font: normal 1.3em/1em "Helvetica Neue Regular",Arial,"sans-serif";
+   }
+   #description section p {
+       color: #9d9d9d;
+       font: normal 1em/1em "Helvetica Neue Regular",Arial,"sans-serif";
+       padding: 0 5px;   
+   }
+   #description section p strong {
+       clear: both;
+       float: left;
+       padding: 5px 0;
+       width: 100%;
+   }
+   #dekora_values #description section button {
+       background: url("../img/Intranet_boton.png") no-repeat scroll 0 0 transparent;
+       border: none;
+       height: 27px;
+       left: 160px;
+       overflow: hidden;
+       position: relative;
+       top: 5px;
+       width: 62px;
+   }
+   #dekora_values #description section button:hover {
+       background-position: 0 -27px;
+   }
+   form#search {
+       background: url("../img/BG_buscador.png") no-repeat scroll 0 -5px transparent;
+       bottom: 74px;  
+       height: 35px;
+       position: absolute;
+       right: 74px;
+       width: 191px;
+       z-index: 20;
+   }
+   form#search fieldset {
+       border: none;
+       height: 100%;
+       margin: 0;
+       padding: 0;
+       position: relative;
+       width: 100%;
+   }
+   form#search fieldset input#search_input {
+       background: transparent;
+       border: 0 none;
+       color: #FFF;
+       font: normal 1em/1em "Helvetica Neue Regular",Arial,"sans-serif";
+       height: 34px;
+       padding: 0 10px 0 30px;
+       position: absolute;
+       left: 6px;
+       top: 0;
+       width: 140px;
+       z-index: 9;
+   }
+   form#search fieldset button {
+       background: url("../img/redes_lupa.png") no-repeat scroll -82px -6px transparent;
+       border: none;
+       height: 20px;
+       left: 15px;
+       margin: 0;
+       padding: 0;
+       position: relative;
+       top: 8px;
+       width: 16px;
+       z-index: 10;
+   }
+   form#search fieldset button:hover {
+       background-position: -82px -40px;
+   }
+   nav {
+       background: url("../img/sub_menu-transparent.png") scroll repeat -82px 0 transparent;
+       display: block;
+       float: left;
+       position: relative;
+       width: 100%;
+       z-index: 11;
+   }
+   nav.up {
+       top: -283px;
+   }
+   nav.down {
+       top: -35px;
+   }
+   nav ul {
+       float: left;
+       height: 22px;
+       margin: 0 17%;
+       position: relative;
+   }
+   nav ul li {
+       background: transparent;
+       float: left;
+       position: relative;
+   }
+   nav ul li , 
+   nav ul li a {
+       color: #000;
+       font: normal 1.2em/1.2em "Helvetica Neue Thin",Arial,"sans-serif";
+       text-transform: uppercase;
+   }
+   nav ul li#products {
+       left: 0;
+   }
+   nav ul li#tips {
+       left: 30px;
+   }
+   nav ul li#index {
+       background: url("../img/box.png") no-repeat scroll 0 -11px transparent;
+       padding: 5px 20px 0;
+       position: relative;
+       top: -70px;
+       left: 108px;
+       width: 245px;
+       height: 100px;
+   }
+   nav ul li#maintenance {
+       left: 135px;
+   }
+   nav ul li#contact {
+       left: 165px;
+   }
+   nav ul li a,
+   nav ul li a:link,
+   nav ul li a:active,
+   nav ul li a:visited,
+   nav ul li a:hover {
+       background: none;
+       color: #000;
+       text-decoration: none;
+       margin: 0;
+       padding: 0;
+   }
+   nav ul li a img {
+       background: transparent;
+   }
+
+   .slider-wrapper {
+       float: left;
+       height: 700px;
+       margin: 0 auto;
+       overflow: hidden;
+       position: absolute;
+       top: 0px;
+       width: 1200px;
+   } 
+   .nivoSlider {
+       position:relative;
+       width:100%;
+       height:auto;
+       overflow: hidden;
+   }
+   .nivoSlider img {
+       position:absolute;
+       top:0px;
+       left:0px;
+       max-width: none;
+   }
+   .nivo-main-image {
+       display: block !important;
+       position: relative !important; 
+       width: 100% !important;
+   }
+   /* If an image is wrapped in a link */
+   .nivoSlider a.nivo-imageLink {
+       position:absolute;
+       top:0px;
+       left:0px;
+       width:100%;
+       height:100%;
+       border:0;
+       padding:0;
+       margin:0;
+       z-index:6;
+       display:none;
+   }
+   /* The slices and boxes in the Slider */
+   .nivo-slice {
+       display:block;
+       position:absolute;
+       z-index:5;
+       height:100%;
+       top:0;
+   }
+   .nivo-box {
+       display:block;
+       position:absolute;
+       z-index:5;
+       overflow:hidden;
+   }
+   .nivo-box img { display:block; }
+   /* Caption styles */
+   .nivo-caption {
+       position:absolute;
+       left:0px;
+       bottom:0px;
+       background:#000;
+       color:#fff;
+       width:100%;
+       z-index:8;
+       padding: 5px 10px;
+       opacity: 0.8;
+       overflow: hidden;
+       display: none;
+       -moz-opacity: 0.8;
+       filter:alpha(opacity=8);
+       -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+       -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+       box-sizing: border-box;         /* Opera/IE 8+ */
+   }
+   .nivo-caption p {
+       padding:5px;
+       margin:0;
+   }
+   .nivo-caption a {
+       display:inline !important;
+   }
+   .nivo-html-caption {
+       display:none;
+   }
+   /* Direction nav styles (e.g. Next & Prev) */
+   .nivo-directionNav a {
+       background: url("../img/boton_slider_home.png") scroll no-repeat transparent;
+       cursor:pointer;
+       height: 32px;
+       position:absolute;
+       text-indent: -9000em;
+       top: 360px;
+       width: 32px;
+       z-index:9;
+   }
+   .nivo-prevNav {left:20px;}
+   .nivo-nextNav {right:20px;}
+
+   .nivo-prevNav {background-position: 0 0 !important;}
+   .nivo-prevNav:hover {background-position: 0 -35px !important;}
+   .nivo-prevNav:active {background-position: 0 -68px !important;}
+
+   .nivo-nextNav {background-position: -42px 0 !important;}
+   .nivo-nextNav:hover {background-position: -42px -35px !important;}
+   .nivo-nextNav:active {background-position: -42px -68px !important;}
+   /* Control nav styles (e.g. 1,2,3...) */
+   .nivo-controlNav {text-align:center;padding: 15px 0;}
+   .nivo-controlNav a {cursor:pointer;}
+   .nivo-controlNav a.active {font-weight:bold;}
+
+   #partners {
+       background: url("../img/box_partners.png") no-repeat scroll 0 0 transparent;
+       clear: both;
+       height: 206px;
+       margin: 0 auto;
+       overflow: hidden;
+       padding: 0;
+       position: relative;
+       top: 115px;
+       width: 286px;
+       z-index: 11;
+   }
+   #partners div.scrollable_partners {
+       float: left;
+       height: 159px;
+       left: 35px;
+       overflow: hidden;
+       position: relative;
+       top: 3px;
+       width: 215px;
+       z-index: 20;
+   }
+   #partners div.scrollable_partners h1 {
+       color: #FFF;
+       font: normal 1.3em/1.3em "Helvetica Neue Regular",Arial,"sans-serif";
+       text-align: center;
+   }
+   #partners div.scrollable_partners div.items_partners {
+       float: left;
+       height: 159px;
+       position: absolute;
+       width: 20000em;
+   }
+   #partners div.scrollable_partners div.items_partners div {
+       float: left;
+       height: 100%;
+       width: 215px;
+   }
+   #partners div.scrollable_partners div.items_partners div img {
+       display: block;
+       margin: 0 auto;
+   }
+   #partners div.scrollable_partners div.items_partners div p {
+       color: #FFF;
+       font: normal 0.92em/0.92em "Helvetica Neue Regular",Arial,"sans-serif";
+       text-align: center; 
+       padding: 0 10px;  
+   }
+   #partners a.browse {
+       background: url("../img/boton_slide_partners.png") scroll no-repeat 0 0 transparent;
+       display: block;
+       height: 26px;
+       position: absolute;
+       top: 90px;
+       width: 26px;
+       z-index: 30;
+   }
+   #partners a.left {
+       left: 10px;
+   }
+   #partners a.right {
+       right: 10px;
+   }
+   #partners a.prev {
+       background-position: 0 0;
+   }    
+   #partners a.prev:hover {
+       background-position: 0 -26px;
+   }    
+   #partners a.next {
+       background-position: -33px 0;
+   }
+   #partners a.next:hover {
+       background-position: -33px -26px;
+   }
+   footer {
+       bottom: 20px;
+       float: left;
+       left: 770px;
+       position: absolute;
+       z-index: 20;
+   }
+   footer p {
+       border-right: 1px solid #FFF;
+       color: #FFF;
+       color: #FFF;
+       font: normal 0.76em/3em "Helvetica Neue Regular",Arial,"sans-serif";
+       float: left;
+       padding: 0 15px 0 0;
+   }
+   footer a.sm_profile {
+       background: url("../img/redes_lupa.png") no-repeat scroll 0 0 transparent;
+       float: left;
+       height: 32px;
+       position: relative;
+       top: 5px;
+       width: 35px;
+   }
+   footer a#facebook_profile {
+       background-position: 0 0px; 
+       margin: 0 10px;
+   }
+   footer a#facebook_profile:hover {
+       background-position: 0 -33px; 
+       margin: 0 10px;
+   }
+   footer a#twitter_profile.sm_profile {
+       background-position: -40px 0;
+       margin: 0 ;
+   }
+   footer a#twitter_profile.sm_profile:hover {
+       background-position: -40px -33px;
+       margin: 0 ;
+   }
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 100%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow:none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
