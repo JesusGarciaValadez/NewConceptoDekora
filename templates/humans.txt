@@ -3,7 +3,7 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Jesús Antonio García Valadez -- Developer -- @_Chucho_
 
 # THANKS
 
